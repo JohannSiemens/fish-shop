@@ -2,7 +2,6 @@ import useSWR from "swr";
 import { useRouter } from "next/router";
 import { ProductCard } from "./Product.styled";
 import { StyledLink } from "../Link/Link.styled";
-//Alter Import ist kaputt: import Comments from "../../../../backend-create/products/components/Comments";
 import Comments from "../Comments";
 import { useState } from "react";
 import ProductForm from "../ProductForm";
